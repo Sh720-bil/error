@@ -1,0 +1,14 @@
+[07/16/2020 14:12:59 > b1b2b5: SYS INFO] Status changed to Initializing
+[07/16/2020 14:12:59 > b1b2b5: SYS INFO] Run script 'run.cmd' with script host - 'WindowsScriptHost'
+[07/16/2020 14:12:59 > b1b2b5: SYS INFO] Status changed to Running
+[07/16/2020 14:12:59 > b1b2b5: INFO] 
+[07/16/2020 14:12:59 > b1b2b5: INFO] D:\local\Temp\jobs\triggered\UserLogin\esnwqt2o.nav>dotnet UserLogin.dll  
+[07/16/2020 14:12:59 > b1b2b5: ERR ] Unhandled exception. OpenQA.Selenium.DriverServiceNotFoundException: The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+[07/16/2020 14:12:59 > b1b2b5: ERR ]    at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+[07/16/2020 14:12:59 > b1b2b5: ERR ]    at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+[07/16/2020 14:12:59 > b1b2b5: ERR ]    at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)
+[07/16/2020 14:12:59 > b1b2b5: ERR ]    at OpenQA.Selenium.Chrome.ChromeDriver..ctor()
+[07/16/2020 14:12:59 > b1b2b5: ERR ]    at UserLogin.Program.Main(String[] args) in C:\Users\Anneline\source\repos\UserLogin\UserLogin\Program.cs:line 20
+[07/16/2020 14:12:59 > b1b2b5: SYS INFO] Status changed to Failed
+[07/16/2020 14:12:59 > b1b2b5: SYS ERR ] Job failed due to exit code -532462766
+azuredevops
